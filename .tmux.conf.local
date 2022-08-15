@@ -429,3 +429,9 @@ tmux_conf_uninstall_plugins_on_reload=true
 #
 # "$@"
 # # /!\ do not remove the previous line
+
+# My custom shortcuts & commands
+# Allow tmux to use .bashrc
+set-option -g default-command $SHELL
+
+# Fast switching of panes using alt+arrow keys
